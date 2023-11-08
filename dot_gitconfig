@@ -1,5 +1,5 @@
 [user]
-	name = shuheikikuchi
+    name = shuheikikuchi
     email = qu1dpr09u0@gmail.com 
 [core]
     editor = vim 
@@ -15,7 +15,6 @@
     cp = cherry-pick
     mt = mergetool
     prune-tag = fetch origin --prune 'refs/tags/*:refs/tags/*'
-    delete-merged = "!f () { git branch --merged|egrep -v '\\*|main|master'|xargs git branch -d;  };f"
 [ghq]
     root = ~/repos
 [pull]
@@ -30,11 +29,11 @@
 [diff]
     tool = vscode
 [init]
-	defaultBranch = main
+    defaultBranch = main
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
+    required = true
 [push]
-	autoSetupRemote = true
+    autoSetupRemote = true
