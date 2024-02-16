@@ -8,6 +8,7 @@ return {
   color_scheme = "Whimsy",
 
   font = wezterm.font_with_fallback {
+    'MONASPACE ARGON',
     'Fira Code',
     'Source Code Pro',
   },
@@ -39,6 +40,12 @@ return {
       key = 'w',
       mods = 'CMD',
       action = wezterm.action.CloseCurrentPane { confirm = false },
+    },
+    -- ペーンセレクトモード
+    {
+      key='o',
+      mods='CTRL',
+      action=wezterm.action{ PaneSelect = {} }
     },
   },
 
