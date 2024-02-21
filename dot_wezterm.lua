@@ -12,7 +12,7 @@ return {
     'Fira Code',
     'Source Code Pro',
   },
-  font_size = 14,
+  font_size = 13.4,
   line_height = 1.1,
 
   default_cursor_style = 'SteadyBar',
