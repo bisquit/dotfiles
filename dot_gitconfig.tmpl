@@ -4,6 +4,9 @@
 [core]
     editor = vim 
     ignorecase = false
+    pager = delta
+[interactive]
+    diffFilter = delta --color-only
 [alias]
     st = status
     co = checkout
@@ -21,6 +24,7 @@
     rebase = false
 [merge]
     tool = vscode
+    conflictstyle = diff3
 [mergetool]
     prompt = false
     keepBackup = false
@@ -28,6 +32,7 @@
     cmd = code --wait $MERGED
 [diff]
     tool = vscode
+    colorMoved = default
 [init]
     defaultBranch = main
 [filter "lfs"]
@@ -37,3 +42,9 @@
     required = true
 [push]
     autoSetupRemote = true
+[delta]
+    navigate = true
+    line-numbers = true
+    side-by-side = true
+    hyperlinks = true
+    hyperlinks-file-link-format = "vscode://file/{path}:{line}"
