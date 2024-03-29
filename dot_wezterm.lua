@@ -8,6 +8,7 @@ return {
   color_scheme = "Whimsy",
 
   font = wezterm.font_with_fallback {
+    'Moralerspace Argon NF',
     'MONASPACE ARGON',
     'Fira Code',
     'Source Code Pro',
