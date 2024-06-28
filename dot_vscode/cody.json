@@ -1,0 +1,10 @@
+{
+  "Improve": {
+    "prompt": "Improve the selected code",
+    "context": {
+      "selection": true,
+      "currentFile": false
+    },
+    "mode": "edit"
+  }
+}
