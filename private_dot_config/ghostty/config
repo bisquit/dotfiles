@@ -1,3 +1,8 @@
+cursor-style = bar
 font-family = "Moralerspace Argon NF"
-theme = tokyonight
 scrollback-limit = 100000
+theme = tokyonight
+unfocused-split-opacity = 0.5
+keybind = ctrl+backslash=new_split:right
+keybind = ctrl+minus=new_split:down
+keybind = ctrl+o=goto_split:next
